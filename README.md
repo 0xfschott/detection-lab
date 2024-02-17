@@ -16,7 +16,7 @@ vagrant up
 
 ### Wazuh 
 At first the Wazuh server is automatically deployed. The server provides a dashboard to view event codes from registered agents.
-The Wazuh web application can be accessed on the host machine on https://192.168.64.10:
+The Wazuh web application can be accessed on the host machine on https://192.168.128.10:
 
 ![image](https://github.com/0xfschott/detection-lab/assets/17066401/64e4ff6a-8637-4e8b-800a-2b59e38d5ae8)
 
