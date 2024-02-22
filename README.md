@@ -39,7 +39,7 @@ The login credentials are generated during the setup process and can be found in
 
 ### Windows 11 workstation
 
-The workstation is automatically registered on the Wazuh server and starts the Wazuh agent as a service by running the PowerShell script `rollout_wazuh.ps1`.
+The workstation is a prebuilt Windows11 VM (probs to Stefan Scherer -> https://github.com/StefanScherer/packer-windows). It is automatically registered on the Wazuh server and starts the Wazuh agent as a service by running the PowerShell script `rollout_wazuh.ps1`.
 You should now see the Workstation and its events under "Agents" in the Wazuh dashboard:
 
 ![image](https://github.com/0xfschott/detection-lab/assets/17066401/ab0a2f61-0c0f-460e-aae7-1c1238e4d80e)
